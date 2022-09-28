@@ -94,12 +94,8 @@ body {
   margin-bottom: 2rem;
 }
 
-.BoxWithdrawInputs1Right input,
-.BoxWithdrawInputs1Right select,
-.BoxWithdrawInputs2Right input,
-.BoxWithdrawInputs2Right select,
-.BoxWithdrawInputs3Right input,
-.BoxWithdrawInputs3Right select {
+.boxWithdrawInputs input,
+.boxWithdrawInputs select {
   padding: 0.4rem;
   margin-bottom: 0.5rem;
   width: 1078px;
@@ -117,10 +113,8 @@ body {
 }
 
 .btnBox {
-  display: flex;
-  justify-content: end;
   margin: 1.5rem;
-  margin-right: 0;
+  margin-left: 0.2rem;
 }
 
 button {

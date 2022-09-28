@@ -1,0 +1,149 @@
+::before,
+::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.mainBox {
+  width: 1200px;
+  border: solid 1px gray;
+  border-radius: 5px;
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #ececec;
+}
+
+.topBar {
+  width: 100%;
+  height: 20px;
+  background-color: #DB2F2F;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+.header img {
+  width: 200px;
+}
+
+.boxContent {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.leftBox {
+  width: 15%;
+  height: 750px;
+  display: flex;
+  border-right: solid 1px gray;
+}
+
+.rightBox {
+  width: 100%;
+  background-color: white;
+}
+
+.rightBoxTopLine {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+
+.rightBoxHeading {
+  background-color: #ececec;
+  margin: 0.4rem;
+  padding: 0.2rem;
+}
+
+.rightBoxStudentDetails {
+  display: flex;
+  background-color: #ececec;
+  margin: 0.4rem;
+  padding: 0.2rem;
+}
+
+.rightBoxStudentDetailsLeft {
+  width: 200px;
+}
+
+.rightBoxCourseDetails {
+  display: flex;
+  background-color: #ececec;
+  margin: 0.4rem;
+  padding: 0.2rem;
+}
+
+.rightBoxCourseDetailsLeft {
+  width: 200px;
+}
+
+.rightBoxWithdraw {
+  background-color: #ececec;
+  margin: 0.4rem;
+  padding: 0.2rem;
+  margin-top: 2rem;
+}
+.rightBoxWithdraw h4 {
+  width: 800px;
+  margin-bottom: 2rem;
+}
+
+.rightBoxWithdrawInputs {
+  display: flex;
+}
+
+.rightBoxWithdrawInputsLeft {
+  width: 200px;
+}
+.rightBoxWithdrawInputsLeft p {
+  margin-bottom: 1rem;
+}
+
+.rightBoxWithdrawInputsRight {
+  display: flex;
+  flex-direction: column;
+}
+.rightBoxWithdrawInputsRight input,
+.rightBoxWithdrawInputsRight select {
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  width: 800px;
+}
+
+.rightBoxWithdrawTextArea {
+  display: flex;
+}
+.rightBoxWithdrawTextArea p {
+  width: 200px;
+}
+.rightBoxWithdrawTextArea textarea {
+  width: 800px;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: end;
+  margin: 1.4rem;
+}
+
+button {
+  background-color: rgb(59, 116, 192);
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

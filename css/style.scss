@@ -102,17 +102,6 @@ body {
     }
 }
 
-.BoxWithdrawInputs {
-    display: flex;
-    flex-direction: column;
-}
-
-.BoxWithdrawInputs1Left,
-.BoxWithdrawInputs2Left, 
-.BoxWithdrawInputs3Left {
-    width: 200px;
-}
-
 .BoxWithdrawInputs1Right,
 .BoxWithdrawInputs2Right,
 .BoxWithdrawInputs3Right {
@@ -130,10 +119,6 @@ body {
 
 .BoxWithdrawTextArea {
 
-    p {
-        width: 200px;
-    }
-
     textarea {
         width: 1078px;
         border: solid 1px $boxesBorderGray;
@@ -143,14 +128,11 @@ body {
     }
 }
 
-.reasons {
-    display: none;
-}
-
 .btnBox {
     display: flex;
     justify-content: end;
-    margin: 1.4rem;
+    margin: 1.5rem;
+    margin-right: 0;
 }
 
 button {

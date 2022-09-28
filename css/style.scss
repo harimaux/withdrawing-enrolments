@@ -8,6 +8,7 @@
 
 $royalBlue: rgb(59, 116, 192);
 $backGoundGray: #ececec;
+$boxesBorderGray: rgb(172, 172, 172);
 $NCLred: #DB2F2F;
 
 body {
@@ -15,7 +16,7 @@ body {
 }
 
 .mainBox {
-    width: 1200px;
+    width: 1100px;
     border: solid 1px gray;
     border-radius: 5px;
     margin-left: 50%;
@@ -50,53 +51,46 @@ body {
     height: 100%;
 }
 
-.leftBox {
-    width: 15%;
-    height: 750px;
-    display: flex;
-    border-right: solid 1px gray;
-}
-
-.rightBox {
+.Box {
     width: 100%;
     background-color: white;
 }
 
-.rightBoxTopLine {
+.BoxTopLine {
     width: 100%;
     height: 1px;
     background-color: gray;
 }
 
-.rightBoxHeading {
+.BoxHeading {
     background-color: $backGoundGray;
     margin: .4rem;
     padding: .2rem;
 }
 
-.rightBoxStudentDetails {
+.BoxStudentDetails {
     display: flex;
     background-color: $backGoundGray;
     margin: .4rem;
     padding: .2rem;
 }
 
-.rightBoxStudentDetailsLeft {
+.BoxStudentDetailsLeft {
     width: 200px;
 }
 
-.rightBoxCourseDetails {
+.BoxCourseDetails {
     display: flex;
     background-color: $backGoundGray;
     margin: .4rem;
     padding: .2rem;
 }
 
-.rightBoxCourseDetailsLeft {
+.BoxCourseDetailsLeft {
     width: 200px;
 }
 
-.rightBoxWithdraw {
+.BoxWithdraw {
     background-color: $backGoundGray;
     margin: .4rem;
     padding: .2rem;
@@ -108,40 +102,49 @@ body {
     }
 }
 
-.rightBoxWithdrawInputs {
-    display: flex;
-}
-
-.rightBoxWithdrawInputsLeft {
-    width: 200px;
-
-    p {
-        margin-bottom: 1rem;
-    }
-}
-
-.rightBoxWithdrawInputsRight {
+.BoxWithdrawInputs {
     display: flex;
     flex-direction: column;
+}
+
+.BoxWithdrawInputs1Left,
+.BoxWithdrawInputs2Left, 
+.BoxWithdrawInputs3Left {
+    width: 200px;
+}
+
+.BoxWithdrawInputs1Right,
+.BoxWithdrawInputs2Right,
+.BoxWithdrawInputs3Right {
 
     input,
     select {
         padding: .4rem;
         margin-bottom: .5rem;
-        width: 800px;
+        width: 1078px;
+        border: solid 1px $boxesBorderGray;
+        border-radius: 4px;
+        font-family: 'Poppins', sans-serif;
     }
 }
 
-.rightBoxWithdrawTextArea {
-    display: flex;
+.BoxWithdrawTextArea {
 
     p {
         width: 200px;
     }
 
     textarea {
-        width: 800px;
+        width: 1078px;
+        border: solid 1px $boxesBorderGray;
+        border-radius: 4px;
+        padding: .2rem;
+        font-family: 'Poppins', sans-serif;
     }
+}
+
+.reasons {
+    display: none;
 }
 
 .btnBox {
